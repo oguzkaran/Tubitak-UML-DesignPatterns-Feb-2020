@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AddOperationLib/AddOperationLib.iml" filepath="$PROJECT_DIR$/AddOperationLib/AddOperationLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DynamicLoadingTest.iml" filepath="$PROJECT_DIR$/DynamicLoadingTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultiplyOperationLib/MultiplyOperationLib.iml" filepath="$PROJECT_DIR$/MultiplyOperationLib/MultiplyOperationLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OperationLib/OperationLib.iml" filepath="$PROJECT_DIR$/OperationLib/OperationLib.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="OperationLib:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/OperationLib_jar</output-path>
+    <root id="archive" name="OperationLib.jar">
+      <element id="module-output" name="OperationLib" />
+    </root>
+  </artifact>
+</component>

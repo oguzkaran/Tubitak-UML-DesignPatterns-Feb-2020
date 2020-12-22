@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/SampleCpp.dir/main.cpp.o  -o SampleCpp 

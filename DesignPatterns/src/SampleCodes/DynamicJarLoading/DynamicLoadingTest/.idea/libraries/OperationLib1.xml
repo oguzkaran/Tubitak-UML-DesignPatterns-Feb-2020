@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="OperationLib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/OperationLib_jar/OperationLib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

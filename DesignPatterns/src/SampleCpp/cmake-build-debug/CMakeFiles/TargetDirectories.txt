@@ -1,0 +1,3 @@
+C:/Users/Karans/Dropbox/CSD/Kurslar/Tubitak-UML-DesignPatterns-Feb-2020/DesignPatterns/src/SampleCpp/cmake-build-debug/CMakeFiles/SampleCpp.dir
+C:/Users/Karans/Dropbox/CSD/Kurslar/Tubitak-UML-DesignPatterns-Feb-2020/DesignPatterns/src/SampleCpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Karans/Dropbox/CSD/Kurslar/Tubitak-UML-DesignPatterns-Feb-2020/DesignPatterns/src/SampleCpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir

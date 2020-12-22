@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="IOUtilLib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../CopyApp/out/artifacts/IOUtilLib_jar/IOUtilLib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

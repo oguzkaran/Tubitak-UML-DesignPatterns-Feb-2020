@@ -1,0 +1,4 @@
+"C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\Karans\Dropbox\CSD\Kurslar\Tubitak-UML-DesignPatterns-Feb-2020\DesignPatterns\src\SampleCpp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Karans/Dropbox/CSD/Kurslar/Tubitak-UML-DesignPatterns-Feb-2020/DesignPatterns/src/SampleCpp/cmake-build-debug
