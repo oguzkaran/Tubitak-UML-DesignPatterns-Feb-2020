@@ -11,14 +11,12 @@ iostream
 -
 thread
 -
-vector
--
-mutex
--
-exception
--
 cstdlib
 -
 ctime
+-
+mutex
+-
+semaphore
 -
 
