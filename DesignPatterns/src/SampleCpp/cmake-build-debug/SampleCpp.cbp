@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Karans/Dropbox/CSD/Kurslar/Tubitak-UML-DesignPatterns-Feb-2020/DesignPatterns/src/SampleCpp/device.cpp">
+			<Option target="SampleCpp"/>
+		</Unit>
+		<Unit filename="C:/Users/Karans/Dropbox/CSD/Kurslar/Tubitak-UML-DesignPatterns-Feb-2020/DesignPatterns/src/SampleCpp/device.hpp">
+			<Option target="SampleCpp"/>
+		</Unit>
 		<Unit filename="C:/Users/Karans/Dropbox/CSD/Kurslar/Tubitak-UML-DesignPatterns-Feb-2020/DesignPatterns/src/SampleCpp/main.cpp">
 			<Option target="SampleCpp"/>
 		</Unit>

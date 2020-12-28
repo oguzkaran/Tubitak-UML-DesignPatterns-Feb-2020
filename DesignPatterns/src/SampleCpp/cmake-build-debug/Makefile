@@ -127,6 +127,33 @@ SampleCpp\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SampleCpp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SampleCpp.dir\build
 .PHONY : SampleCpp\fast
 
+device.obj: device.cpp.obj
+
+.PHONY : device.obj
+
+# target to build an object file
+device.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SampleCpp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SampleCpp.dir\device.cpp.obj
+.PHONY : device.cpp.obj
+
+device.i: device.cpp.i
+
+.PHONY : device.i
+
+# target to preprocess a source file
+device.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SampleCpp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SampleCpp.dir\device.cpp.i
+.PHONY : device.cpp.i
+
+device.s: device.cpp.s
+
+.PHONY : device.s
+
+# target to generate assembly for a file
+device.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SampleCpp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SampleCpp.dir\device.cpp.s
+.PHONY : device.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -163,6 +190,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... SampleCpp
+	@echo ... device.obj
+	@echo ... device.i
+	@echo ... device.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

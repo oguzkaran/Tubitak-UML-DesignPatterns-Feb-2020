@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Karans/Dropbox/CSD/Kurslar/Tubitak-UML-DesignPatterns-Feb-2020/DesignPatterns/src/SampleCpp/device.cpp" "C:/Users/Karans/Dropbox/CSD/Kurslar/Tubitak-UML-DesignPatterns-Feb-2020/DesignPatterns/src/SampleCpp/cmake-build-debug/CMakeFiles/SampleCpp.dir/device.cpp.obj"
   "C:/Users/Karans/Dropbox/CSD/Kurslar/Tubitak-UML-DesignPatterns-Feb-2020/DesignPatterns/src/SampleCpp/main.cpp" "C:/Users/Karans/Dropbox/CSD/Kurslar/Tubitak-UML-DesignPatterns-Feb-2020/DesignPatterns/src/SampleCpp/cmake-build-debug/CMakeFiles/SampleCpp.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

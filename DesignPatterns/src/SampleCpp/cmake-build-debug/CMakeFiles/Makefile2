@@ -78,12 +78,12 @@ clean: CMakeFiles\SampleCpp.dir\clean
 CMakeFiles\SampleCpp.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SampleCpp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SampleCpp.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SampleCpp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\SampleCpp.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Karans\Dropbox\CSD\Kurslar\Tubitak-UML-DesignPatterns-Feb-2020\DesignPatterns\src\SampleCpp\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target SampleCpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Karans\Dropbox\CSD\Kurslar\Tubitak-UML-DesignPatterns-Feb-2020\DesignPatterns\src\SampleCpp\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target SampleCpp"
 .PHONY : CMakeFiles\SampleCpp.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\SampleCpp.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Karans\Dropbox\CSD\Kurslar\Tubitak-UML-DesignPatterns-Feb-2020\DesignPatterns\src\SampleCpp\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Karans\Dropbox\CSD\Kurslar\Tubitak-UML-DesignPatterns-Feb-2020\DesignPatterns\src\SampleCpp\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\SampleCpp.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Karans\Dropbox\CSD\Kurslar\Tubitak-UML-DesignPatterns-Feb-2020\DesignPatterns\src\SampleCpp\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\SampleCpp.dir\rule

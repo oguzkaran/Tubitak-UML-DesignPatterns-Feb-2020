@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/SampleCpp.dir/device.cpp.obj"
   "CMakeFiles/SampleCpp.dir/main.cpp.obj"
   "SampleCpp.exe"
   "SampleCpp.exe.manifest"

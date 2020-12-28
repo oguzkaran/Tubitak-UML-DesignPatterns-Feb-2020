@@ -3,4 +3,4 @@ project(SampleCpp)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(SampleCpp main.cpp)
+add_executable(SampleCpp main.cpp device.cpp device.hpp)

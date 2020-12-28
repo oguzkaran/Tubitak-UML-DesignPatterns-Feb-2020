@@ -9,14 +9,6 @@
 C:/Users/Karans/Dropbox/CSD/Kurslar/Tubitak-UML-DesignPatterns-Feb-2020/DesignPatterns/src/SampleCpp/main.cpp
 iostream
 -
-thread
--
-cstdlib
--
-ctime
--
-mutex
--
-semaphore
+vector
 -
 
