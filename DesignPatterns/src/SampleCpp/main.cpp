@@ -1,29 +1,32 @@
 /*----------------------------------------------------------------------------------------------------------------------
-    [[nodiscard]] attribute'u ile kullanılmayan kod elemanlarına ilişkin derleyicilerin uyarı mesajı vermesi
-    engellenebilir
+    optional sınıfı
+
+    11 14 17 20
 ----------------------------------------------------------------------------------------------------------------------*/
 #include <iostream>
-#include <vector>
+#include <iterator>
+#include <optional>
 
-[[nodiscard]]
-int get_rand(int min, int max)
+std::optional<int> get_val(int min, int max, int threshold)
 {
-    return std::rand() % (max - min) + min;
-}
+    auto val = std::rand() % (max - min) + min;
 
-template <typename T>
-int write_file(const std::vector<T> &vec)
-{
-    int count = 0;
-    //...
-
-
-    return count;
+    return val <= threshold ? std::make_optional(val) : std::nullopt;
 }
 
 int main()
 {
-    get_rand(10, 20);
+    using namespace std;
+
+    srand(static_cast<unsigned int>(time(nullptr)));
+
+    if (auto opt = get_val(10, 20, 15); opt) {
+        std::cout << opt.value() << '\n';
+        opt.value() *= 2;
+        std::cout << opt.value() << '\n';
+    }
+    else
+        std::cout << "Istenen deger uretilemedi\n";
 
     return 0;
 }
