@@ -1,32 +1,43 @@
 /*----------------------------------------------------------------------------------------------------------------------
-    optional sınıfı
-
-    11 14 17 20
+    visit fonksiyonu ve variant sınıfı ile visitor kalıbı çok kolay bir biçimde implemente edilebilir
 ----------------------------------------------------------------------------------------------------------------------*/
 #include <iostream>
-#include <iterator>
-#include <optional>
+#include <variant>
 
-std::optional<int> get_val(int min, int max, int threshold)
-{
-    auto val = std::rand() % (max - min) + min;
+class MyVisitor {
+    //...
+public:
+    void operator()(int val)
+    {
+        std::cout << "int:" << val << '\n';
+    }
 
-    return val <= threshold ? std::make_optional(val) : std::nullopt;
-}
+    void operator()(std::string s)
+    {
+        std::cout << "std::string:" << s << '\n';
+    }
+
+    void operator()(double val)
+    {
+        std::cout << "double:" << val << '\n';
+    }
+};
 
 int main()
 {
-    using namespace std;
+    std::variant<int, double, std::string> v;
+    MyVisitor myVisitor;
 
-    srand(static_cast<unsigned int>(time(nullptr)));
+    v = 10;
+    std::visit(myVisitor, v);
 
-    if (auto opt = get_val(10, 20, 15); opt) {
-        std::cout << opt.value() << '\n';
-        opt.value() *= 2;
-        std::cout << opt.value() << '\n';
-    }
-    else
-        std::cout << "Istenen deger uretilemedi\n";
+    v = 3.4;
+
+    std::visit(myVisitor, v);
+
+    v = "ankara";
+
+    std::visit(myVisitor, v);
 
     return 0;
 }
