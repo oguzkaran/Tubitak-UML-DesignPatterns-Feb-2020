@@ -1,0 +1,2 @@
+C:\Users\Karans\Desktop\Tubitak\OperationLib\x64\Debug\OperationLib.dll
+C:\Users\Karans\Desktop\Tubitak\OperationLib\x64\Debug\OperationLib.pdb

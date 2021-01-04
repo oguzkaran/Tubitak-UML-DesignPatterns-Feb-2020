@@ -1,0 +1,3 @@
+﻿  sample.c
+C:\Users\Karans\Desktop\Tubitak\JNA\SampleLib\sample.h(14,2): warning C4091: ' __declspec(dllexport)': ignored on left of 'sample' when no variable is declared
+  SampleLib.vcxproj -> C:\Users\Karans\Desktop\Tubitak\JNA\SampleLib\Debug\SampleLib.dll
