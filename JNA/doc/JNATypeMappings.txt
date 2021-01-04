@@ -1,0 +1,10 @@
+C           Java
+char        byte
+short       short
+wchar_t     char
+int         int
+long        com.sun.jna.NativeLong
+long long   long
+float       float
+double      double
+char *      String

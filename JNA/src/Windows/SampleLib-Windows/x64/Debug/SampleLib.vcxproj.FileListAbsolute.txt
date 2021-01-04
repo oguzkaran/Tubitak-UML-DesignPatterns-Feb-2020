@@ -1,0 +1,4 @@
+C:\Users\Karans\Desktop\Tubitak\JNA\SampleLib\x64\Debug\SampleLib.dll
+C:\Users\Karans\Desktop\Tubitak\JNA\SampleLib\x64\Debug\SampleLib.pdb
+C:\Users\Karans\Desktop\Tubitak\JNA\Windows\SampleLib-Windows\x64\Debug\SampleLib.dll
+C:\Users\Karans\Desktop\Tubitak\JNA\Windows\SampleLib-Windows\x64\Debug\SampleLib.pdb
