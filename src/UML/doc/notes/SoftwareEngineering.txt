@@ -1,0 +1,94 @@
+Waterfall Model
+    - Requirements 
+            - Analysis
+                - Design 
+                    - Implementation (Coding)
+                        - Testing
+                            - Maintenance      
+
+- Her adımın eksiksiz yapılması hedeflenir
+- Her adımın sonunda döküman oluşturulur. Döküman ağırlıklı modeldir
+- Doğrusal süreçtir
+- Kullanıcı katılımı başlangıç adımındadır
+
+- Avantajları:
+    - Her adım net bir şekilde sınırlandırılır
+    - Basit planlama ve kontrol imkanı
+    - Anlaşılabilir
+    - Düşük maliyetli
+
+- Dezavantajları:
+    - Kullanıcı katılımı sadece başta mümkün
+    - Döküman ağırlıklı kullanımı
+    - Sıralama, sınırlandırma ve yeterlilik problemleri
+
+Rational Unified Process
+
+Avantajları
+- Belirli zamanlarda çalışan ürün elde edilir (itreative and incremental)
+- Bu modele yönelik geliştirilmiş araçlar mevcut
+- Kullanıcı katılımlıdır
+- Kapsamlı bir süreçtir
+
+Dezavantajları:
+- Kapsamlı olması zorluğunu da beraberinde getirir
+- Neyi nasıl kullandığınız unutulabilir
+- Risk faktörü
+- Araçlar genelde pahalıdır
+
+Agile Software development process:
+Avantajları:
+- Süreçler ve araçların yerine bireyler ve etkileşimler
+- Kapsamlı dökumantasyon yerine çalışan yazılım
+- Kullanıcı katılımı
+- Bir planı takip etmek yerine değişime açık
+- Ürünün ara ara çalışan versiyonlarının teslimi dolayısıyla müşteri memnuniyeti
+
+Dezavantajları:
+- Dökümantasyon zayıf kalır
+- Tek bir plana bağlı kalınmaması bazı durumlarda değişiklikleri yönetmede zorluk getirebilir
+
+Extreme Programming (XP):
+Avantajları:
+- Pair programming
+- Kullanıcı katılımcı
+- Kullanıcı ile geliştirici arasındaki etkileşim
+- Değişime Açık
+
+Dezavantajları:
+- Döküman eksikliği
+- Her zaman geliştiriciler birlikte iyi çalışamazlar
+- Müşteri ile etkileşime girecek geliştiricilerin uygun seçimi
+- Aralarında tecrübe farkı olan programcılar birlikte iyi çalışamayabilir
+- Herkes aynı düşünce yapısıyla çalışamayabilir
+
+CRC Cards(Class, Responsibilities and Collaborations)
+- Bir sınıfın tasarmına ilişkin dökümantasyondur:
+    class Name: 
+    derived class: 
+    base classes:
+    
+    Reponsibilities                 Collaboators
+    
+Avantajları:
+- Basitlik
+- Kolay kullanılabilir
+- Detay olması iyi anlaşılması demektir
+
+Dezavantajları:
+- Basitlik bazen sınırlar olmasına yol açabilir
+
+
+View:
+- static view: class diagram, object diagram
+- functional view: use case diagram, activity diagram
+- dynamic view: sequence, coolaboration, state diagram
+
+Use case:
+- use case diagram: system (boundry), actor, use case, association, dependency, generalization
+- use case narrative
+- use case scenario
+
+
+
+
